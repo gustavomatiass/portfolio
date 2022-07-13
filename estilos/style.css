@@ -4,6 +4,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    background-color: rgb(8, 8, 41);;
+}
+
 header {
     background-color: rgb(8, 8, 41);
     width: 100%;
@@ -95,7 +99,6 @@ header {
 }
 
 .conhecimento {
-    border: 3px solid blue ;
     background-color: white;
     padding: 20px;
     margin: 40px;
@@ -105,13 +108,26 @@ header {
 }
 
 .conhecimento h1 {
-    background-color: blue;
-    
+    background-color: rgb(8, 8, 41);
+    color: white;
+    padding: 30px;
+    margin: -20px;
+}
+
+.conhecimento h2 {
+    padding-top: 50px;
+    margin: 20px;
+}
+.conhecimento p {
+    padding: 20px;
+}
+
+#liguagens p {
+    padding: 50px;
 }
 
 .formaçao {
-    border: 3px solid blue ;
-    background-color: aliceblue;
+    background-color: white;
     padding-top: 40px;
     padding: 20px;
     margin: 40px;
@@ -120,18 +136,62 @@ header {
    transition: 0.3s;
 }
 
+.formaçao h1 {
+    background-color: rgb(8, 8, 41);
+    color: white;
+    padding: 30px;
+    margin: -20px;
+}
+
+.formaçao h2 {
+    padding-top: 50px;
+    margin: 20px;
+}
+.formaçao p {
+    padding: 50px;
+}
+
+
+
+
 .conhecimento:hover {
     transition: .3s;
+    border: 5px solid rgba(0, 0, 255, 0.697);
     width: 600px;
     height: 740px;
+    font-size: 1.3em;
 }
 
-.formaçao:hover {
+.conhecimento h1:hover {
+    margin: -22px;
+}
+
+.formaçao:hover  {
     transition: .3s;
+    border: 5px solid rgba(0, 0, 255, 0.697);
     width: 600px;
     height: 740px;
+    font-size: 1.3em;
 }
 
+.formaçao h1:hover {
+    margin: -22px;
+}
+
+#projetos h1 {
+    font-size: 3em;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#quadro iframe {
+    margin-left: 300px;
+    margin-top: 50px;
+    padding-left: 300px;
+    width: 950px;
+    height: 670px;
+}
 
 
 
