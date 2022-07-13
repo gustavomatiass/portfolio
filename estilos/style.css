@@ -193,6 +193,85 @@ header {
     height: 670px;
 }
 
+#projetos img {
+    width: 500px;
+    margin-top: -20px;
+    margin: 180px;
+    display: inline-block;
+}
+
+#proj01 {
+    display: inline;
+}
+
+#proj01 h2 {
+    color: white;
+    margin: 300px;
+    margin-bottom: -200px;
+    background-color: black;
+    border-radius: 20px;
+    max-width: 290px;
+    height: 80px;
+    text-align: center;
+    font-size: 2em;
+}
+
+
+
+#proj02 {
+   display: inline-block;
+   margin-top: -300px;
+   padding-top: -30px;
+}
+
+#proj02 h2 {
+    color: white;
+    margin: 300px;
+    margin-bottom: -200px;
+    background-color: black;
+    border-radius: 20px;
+    max-width: 290px;
+    height: 80px;
+    text-align: center;
+    font-size: 2em;
+}
+
+#coluna {
+    display: inline-block;
+    display: flex;
+}
+
+#proj03 {
+    display: inline;
+}
+
+#proj03 h2 {
+    color: white;
+    margin: 300px;
+    margin-bottom: -200px;
+    background-color: black;
+    border-radius: 20px;
+    max-width: 290px;
+    height: 80px;
+    text-align: center;
+    font-size: 2em;
+}
+
+#proj04 {
+    display: inline-block;
+}
+
+#proj04 h2 {
+    color: white;
+    margin: 300px;
+    margin-bottom: -200px;
+    background-color: black;
+    border-radius: 20px;
+    max-width: 290px;
+    height: 80px;
+    text-align: center;
+    font-size: 2em;
+}
 
 
 
