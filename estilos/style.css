@@ -319,15 +319,103 @@ footer h1{
 
 
 
-@media (max-width: 850px) {
+@media (max-width: 750px) {
+    /*body #capa#habilidade01#projetos#contatos {
+       width: 100%;
+    }*/
+    
     #eu img {
         text-align: center;
-        padding-left: 280px;
+        padding-left: 200px;
         margin: 50px;
         border-radius: 1%;
     }
     #eu h1 {
         margin: 220px;
-        margin-left: 260px;
+        margin-left: 20px;
+        width: 600px;
+    }
+    #habilidade {
+        display: block;
+        margin-top: -40px;
+        margin-left: 80px;
+        text-align: center;
+    }
+    .conhecimento {
+        width: 350px;
+        height: 550px;
+    }
+    .conhecimento:hover {
+        width: 400px;
+        height: 640px;
+        font-size: 1.em;
+    }
+    .formaçao {
+        width: 350px;
+        height: 550px;
+    }
+    .formaçao:hover {
+        width: 400px;
+        height: 640px;
+        font-size: 1.em;
+    }
+    #quadro iframe {
+        margin-left: 20px;
+        margin-top: 80px;
+        padding-left: 1px;
+        width: 600px;
+        height: 370px;
+        background-color: white;
+    }
+    #projetos img {
+        width: 600px;
+        margin-top: -20px;
+        margin: 180px;
+        margin-left: 20px;
+    }
+    #coluna {
+       display: block;
+        
+    }
+    #proj01 {
+        text-align: center;
+        margin-left: -50px;
+    }
+    #proj01 h2 {
+        color: white;
+        margin: 300px;
+        margin-bottom: -200px;
+        max-width: 290px;
+        width: 280px;
+        height: 80px;
+        text-align: center;
+        font-size: 2em;
+    }
+    #proj04 h2 {
+        color: white;
+        margin: 300px;
+        margin-bottom: -200px;
+        background-color: black;
+        border-radius: 20px;
+        max-width: 290px;
+        width: 280px;
+        height: 80px;
+        text-align: center;
+        font-size: 2em;
+    }
+    #contatos img {
+        width: 10%;
+        margin: 20px;
+        display: inline-block;
+        margin-left: 100px;
+    }
+    .linkedin {
+        display: inline;
+    }
+    #insta {
+        display: inline;
+    }
+    #git {
+        display: inline;
     }
 }
